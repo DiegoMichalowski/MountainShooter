@@ -8,6 +8,7 @@ import pygame.display
 
 from code.EntityFactory import EntityFactory
 from code.Entity import Entity
+from code.EntityMediator import EntityMediator
 from code.const import COLOR_WHITE, WIN_HEIGHT, WIN_WIDTH, MENU_OPTION, EVENT_ENEMY, SPAWM_TIME
 
 
@@ -49,6 +50,10 @@ class Level:
             self.leve_text(14, f'{clock.get_fps() :.0f}', COLOR_WHITE, (10, WIN_HEIGHT - 35))
             self.leve_text(14, f'entidades: {len(self.entity_list)}', COLOR_WHITE, (10, WIN_HEIGHT - 20))
             pygame.display.flip()
+            #Collisions and health
+            EntityMediator.verify_collision(entity_list=self.entity_list)
+            EntityMediator.verify_health(entity_list=self.entity_list)
+
         pass
 
     def leve_text(self, text_size: int, text: str, text_color: tuple, text_pos: tuple):
