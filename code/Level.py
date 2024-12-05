@@ -12,7 +12,7 @@ from code.EntityFactory import EntityFactory
 from code.Entity import Entity
 from code.EntityMediator import EntityMediator
 from code.Player import Player
-from code.const import C_WHITE, WIN_HEIGHT, WIN_WIDTH, MENU_OPTION, EVENT_ENEMY, SPAWM_TIME, C_GREEN, C_CYAN, \
+from code.Const import C_WHITE, WIN_HEIGHT, WIN_WIDTH, MENU_OPTION, EVENT_ENEMY, SPAWM_TIME, C_GREEN, C_CYAN, \
     EVENT_TIMEOUT, TIMEOUT_STEP, TIMEOUT_LEVEL
 
 

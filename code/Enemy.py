@@ -1,6 +1,6 @@
 from code.EnemyShot import EnemyShot
 from code.Entity import Entity
-from code.const import ENTITY_SPEED, WIN_WIDTH, ENTITY_SHOT_DELAY, WIN_HEIGHT
+from code.Const import ENTITY_SPEED, WIN_WIDTH, ENTITY_SHOT_DELAY, WIN_HEIGHT
 
 
 class Enemy(Entity):
