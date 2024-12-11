@@ -23,7 +23,7 @@ class Menu:
             self.window.blit(source=self.surf, dest=self.rect)
             self.menu_text(50, "Mountain", C_ORANGE, ((WIN_WIDTH / 2), 70))
             self.menu_text(50, "Shooter", C_ORANGE, ((WIN_WIDTH / 2), 120))
-            self.menu_text(15, "DIEGO MICHALOWSKI RU: 4568691", C_WHITE, ((WIN_WIDTH - 480), 298))
+            self.menu_text(15, "DIEGO MICHALOWSKI RU: 4568691", C_WHITE, ((WIN_WIDTH - 480), 297))
             self.menu_text(15, "VITÓRIA DA COSTA HOLANDA RU: 4580311", C_WHITE, ((WIN_WIDTH - 460), 310))
 
 
