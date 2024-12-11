@@ -1,8 +1,6 @@
-# C
 from turtledemo.nim import COLOR
-
 import pygame
-
+# C
 C_ORANGE = (255, 128, 0)
 C_WHITE = (255, 255, 255)
 C_BLACK = (0, 0, 0)
